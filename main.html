@@ -11,6 +11,11 @@
   width: 80%;
 }
 
+.container img {
+  width: 150px;
+  height: 150px;
+}
+
 .side-panel {
   /* Styles for the side panel */
   float: right;
@@ -18,11 +23,26 @@
   padding: 10px;
   border: 1px solid #ddd;
 }
+
+.flex-container {
+  display: flex;
+  align-items: stretch; /* Ensures all child elements have the same height */
+}
+
+.right-aligned-div {
+  justify-self: flex-end; /* Positions the element to the right edge of its container */
+}
+
 </style>
 </head>
 
-<body>  
-  <div class="container">
+<body>
+  <div class="flex-container">
+    <div class="right-aligned-div">   
+    <img src="https://github.com/dawranadeep.png" alt="RD - Photo" style="width: 150px; height: 150px;">
+  </div>
+
+  <div> 
   <h1> Ranadeep Daw </h1>
   <h2> Website </h2>
   <hr>
@@ -40,6 +60,8 @@
       </ul>
   </div>
   
+
+ 
   
 </body>
 </html>
