@@ -13,10 +13,10 @@
     2.  Clone it using:
 
     ``` console
-    git clone <https://github.com/>\<yourGithubUsername\>/\<yourGithubUsername\>.github.io
+    git clone <https://github.com>/<yourGithubUsername>/<yourGithubUsername>.github.io
     ```
 
-3.  **Create main.html file** In the minimal setup, Github hosts the "main.html" file at the root directory. A minimal file example can be found at
+3.  **Create main.html file** In the minimal setup, Github hosts the "main.html" file at the root directory. A minimal file example can be found at [minexamplelink](https://github.com/dawranadeep/dawranadeep.github.io/blob/main/miscalleneous/minexample.html).
 
 4.  **Push (upload) to Github:** Use the following code:
 
@@ -26,4 +26,4 @@ git commit -m "<some message>"
 git push
 ```
 
-See updated website at \<yourGithubUsername\\\>.github.io
+5.  See updated website at \<yourGithubUsername\>.github.io

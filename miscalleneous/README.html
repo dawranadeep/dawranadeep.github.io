@@ -356,18 +356,27 @@ display: none;
 <h1>Initial steps to create a minimal Github website?</h1>
 <ol start="0" style="list-style-type: decimal">
 <li><p>Register a Github account at <a href="https://github.com/signup" class="uri">https://github.com/signup</a>.</p></li>
-<li><p>&lt;bold&gt; Create the website: &lt;/bold&gt; Create a new
-repository at <a href="https://github.com/new" class="uri">https://github.com/new</a>. Name it as
-&lt;yourGithubUsername&gt;.github.io</p></li>
-<li><p>Clone (download) it locally:</p>
+<li><p><strong>Create the website:</strong> Create a new repository at
+<a href="https://github.com/new" class="uri">https://github.com/new</a>.
+Name it as &lt;yourGithubUsername&gt;.github.io</p></li>
+<li><p><strong>Clone:</strong> Clone (download) it locally:</p>
 <ol start="0" style="list-style-type: decimal">
 <li><p>Ensure Git is installed, or see <a href="https://github.com/git-guides/install-git" class="uri">https://github.com/git-guides/install-git</a>.</p></li>
 <li><p>In the local machine, at the intended project location, open a
 terminal/command prompt.</p></li>
-<li><p>Clone it using: git clone <a href="https://github.com/" class="uri">https://github.com/</a>&lt;yourGithubUsername&gt;/&lt;yourGithubUsername&gt;.github.io</p></li>
-</ol></li>
+<li><p>Clone it using:</p></li>
 </ol>
-<p>3.</p>
+<pre class="console"><code>git clone &lt;https://github.com&gt;/&lt;yourGithubUsername&gt;/&lt;yourGithubUsername&gt;.github.io</code></pre></li>
+<li><p><strong>Create main.html file</strong> In the minimal setup,
+Github hosts the “main.html” file at the root directory. A minimal file
+example can be found at <a href="https://github.com/dawranadeep/dawranadeep.github.io/blob/main/miscalleneous/minexample.html">minexamplelink</a>.</p></li>
+<li><p><strong>Push (upload) to Github:</strong> Use the following
+code:</p></li>
+</ol>
+<pre class="console"><code>git add .
+git commit -m &quot;&lt;some message&gt;&quot;
+git push</code></pre>
+<p>See updated website at &lt;yourGithubUsername\&gt;.github.io</p>
 </div>
 
 
