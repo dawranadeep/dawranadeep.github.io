@@ -1,0 +1,13 @@
+.container {
+  /* Styles for the main content area */
+  float: left;
+  width: 80%;
+}
+
+.side-panel {
+  /* Styles for the side panel */
+  float: right;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
