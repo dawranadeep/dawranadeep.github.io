@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Ranadeep Daw"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ranadeep Daw"
+description              : &description "I am currently waiting to join University of West Florida starting Fall 2024 as an Assistant Professor of Statistics. Previously, I completed my Ph.D. in Statistics from the University of Missouri Columbia, focusing on spatial Statistics. I also hold a Bachelor's and Master's degree in Statistics from the Indian Statistical Institute, Kolkata. I have some experiences working in industry from my job and internship stints at National Institute of Health, Deloitte, General Electric, and Missouri Division of Conservation."
+url                      : https://dawranadeep.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "dawranadeep/dawranadeep.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
