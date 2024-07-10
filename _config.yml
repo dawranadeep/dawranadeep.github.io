@@ -22,13 +22,13 @@ repository               : "dawranadeep/dawranadeep.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Links"
+  pronouns         : "he/him/his"  
+  bio              : ""
+  location         : "Pensacola, FL"
+  employer         : "University of West Florida"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rdaw@uwf.edu" 
 
   # Academic websites
   arxiv            : "https://arxiv.org/dawranadeep"
