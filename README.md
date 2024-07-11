@@ -1,6 +1,6 @@
 # Repo details
 
-Github repository for my academic [website](dawranadeep.github.io).
+Github repository for my academic [website](https://dawranadeep.github.io).
 
 # Courtesy
 
