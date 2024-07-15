@@ -11,10 +11,9 @@ I am currently waiting to join the University of West Florida as an Assistant Pr
 
 Past Experiences
 ======
-I hold a Bachelor's (2014) and Master's (2016) degree in Statistics from the **Indian Statistical Institute, Kolkata**. I did my Ph.D. in Statistics from the **University of Missouri Columbia** in the May, 2023. 
+I did my Bachelor's (2014) and Master's (2016) in Statistics from the **Indian Statistical Institute, Kolkata**. Then, I did my Ph.D. in Statistics from the **University of Missouri Columbia** in the May, 2023. 
 
-I worked as a postdoc at the **National Institute
-of Health** at the [Spatiotemporal Exposure and Toxicology](https://niehs.github.io/SET/) group between 2023-24. In industry, I have worked at **Deloitte** between 2016-17 as a Data Scientist. I also did internships at the **Missouri Division of Conservation, General Electric**, and **FinIQ**.
+I worked as a postdoc at the **National Institute of Health** at the [Spatiotemporal Exposure and Toxicology](https://niehs.github.io/SET/) group between 2023-24. In industry, I have worked at **Deloitte** between 2016-17 as a Data Scientist. I also did internships at the **Missouri Division of Conservation, General Electric**, and **FinIQ**.
 
 
 Research Interest
