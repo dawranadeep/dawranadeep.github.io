@@ -125,7 +125,7 @@ Teaching Experience
   * _Responsibilities_ : Instruction and evaluation.
   * _Mode_ : Classroom.
 
-* **Spring 2018: Teaching Assistant.**   
+* Spring 2018: Teaching Assistant.**   
   * Evaluation of examination and homework of various graduate and undergraduate Statistics courses.
 
 
@@ -139,10 +139,10 @@ Member of American Statistical Association.
 
 Technical Expertise
 ======
-* Computing: Matlab, Python, SAS, $\texttt{R}$.
-* Programming: C, C++, LaTex.
-* Visualization: Tableau, HTML, JavaScript,JavaScript-D3.
-* Cloud: Lewiscluster, Nautilus, Google Colab.
+* Computing: $\texttt{Matlab}$, $\texttt{Python}$, $\texttt{SAS}$, $\texttt{R}$.
+* Programming: $\texttt{C}$, $\texttt{C++}$, $\texttt{LaTex}$.
+* Visualization: $\texttt{Tableau}$, $\texttt{HTML}$, $\texttt{JavaScript}$, $\texttt{JavaScript-D3}$.
+* Cloud: $\texttt{Lewiscluster}$, $\texttt{Nautilus}$, $\texttt{Google Colab}$.
 
 
 Academic Awards
