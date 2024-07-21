@@ -116,16 +116,16 @@ Teaching Experience
 ======
 
 * **Spring 2020: Graduate Instructor, Stat 3500, Probability and Statistics - II.**
-  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to R.
+  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to $\texttt{R}$.
   * _Responsibilities_ : Instruction and evaluation.
   * _Mode_ : Both online and classroom.
   * _Special Mention_ : Data Analysis project as Final examination.
 * **Fall 2019: Graduate Instructor, Stat 3500, Probability and Statistics - II.**
-  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to R.
+  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to $\texttt{R}$.
   * _Responsibilities_ : Instruction and evaluation.
   * _Mode_ : Classroom.
 
-* Spring 2018: Teaching Assistant.**   
+* **Spring 2018: Teaching Assistant.**   
   * Evaluation of examination and homework of various graduate and undergraduate Statistics courses.
 
 
@@ -139,7 +139,7 @@ Member of American Statistical Association.
 
 Technical Expertise
 ======
-* Computing: Matlab, Python, SAS, R.
+* Computing: Matlab, Python, SAS, $\texttt{R}$.
 * Programming: C, C++, LaTex.
 * Visualization: Tableau, HTML, JavaScript,JavaScript-D3.
 * Cloud: Lewiscluster, Nautilus, Google Colab.
