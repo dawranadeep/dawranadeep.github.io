@@ -77,7 +77,7 @@ regionalization of spatial data.*
 
 
 * Daw, R. , Messier P. K. (2024+). *SBoost: A spatially-aware boosting model for global high-
-resolutional imputation of NO<sub>2</sub>$.*
+resolutional imputation of NO<sub>2</sub>.*
 * Daw, R. , Messier P. K. (2024+). *A supervised dimension reduction methodology for geospatial
 conditional risk modeling.*
 
@@ -116,12 +116,12 @@ Teaching Experience
 ======
 
 * **Spring 2020: Graduate Instructor, Stat 3500, Probability and Statistics - II.**
-  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to $\texttt{R}$.
+  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to R.
   * _Responsibilities_ : Instruction and evaluation.
   * _Mode_ : Both online and classroom.
   * _Special Mention_ : Data Analysis project as Final examination.
 * **Fall 2019: Graduate Instructor, Stat 3500, Probability and Statistics - II.**
-  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to $\texttt{R}$.
+  * _Topics_ : ANOVA, Linear and Logistic Regression, Nonparametric Statistics, Introduction to R.
   * _Responsibilities_ : Instruction and evaluation.
   * _Mode_ : Classroom.
 
@@ -139,10 +139,10 @@ Member of American Statistical Association.
 
 Technical Expertise
 ======
-* Computing: $\texttt{Matlab}$, $\texttt{Python}$, $\texttt{SAS}$, $\texttt{R}$.
-* Programming: $\texttt{C}$, $\texttt{C++}$, $\texttt{LaTex}$.
-* Visualization: $\texttt{Tableau}$, $\texttt{HTML}$, $\texttt{JavaScript}$, $\texttt{JavaScript-D3}$.
-* Cloud: $\texttt{Lewiscluster}$, $\texttt{Nautilus}$, $\texttt{Google Colab}$.
+* Computing: Matlab, Python, SAS, R.
+* Programming: C, C++, LaTex.
+* Visualization: Tableau, HTML, JavaScript, JavaScript-D3.
+* Cloud: Lewiscluster, Nautilus, Google Colab.
 
 
 Academic Awards
