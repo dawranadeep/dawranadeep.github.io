@@ -1,19 +1,14 @@
 # main links links
 main:
+  - title: "Teaching"
+    url: /teaching/               
+
   - title: "Publications"
     url: /publications/
 
   - title: "Presentations"
     url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-           
-  - title: "Tutorials"
-    url: /tutorials/
-    
+  
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+  
