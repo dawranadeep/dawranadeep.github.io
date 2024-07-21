@@ -125,7 +125,7 @@ Teaching Experience
   * _Responsibilities_ : Instruction and evaluation.
   * _Mode_ : Classroom.
 
-* Spring 2018: Teaching Assistant.**   
+* **Spring 2018: Teaching Assistant.**   
   * Evaluation of examination and homework of various graduate and undergraduate Statistics courses.
 
 
