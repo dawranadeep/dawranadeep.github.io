@@ -9,11 +9,9 @@ main:
   - title: "Teaching"
     url: /teaching/    
            
-  - title: "Blog Posts"
+  - title: "Tutorials"
     url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
