@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently waiting to join the University of West Florida as an Assistant Professor of Statistics starting Fall 2024. 
+I am an assistant professor of Statistics in the Department of Mathematics and Statistics at the University of West Florida. 
 
 Past Experiences
 ======
@@ -29,5 +29,4 @@ Current Research
 
 Teaching Responsibility
 ======
-I will be teaching Biostatistics (STA4173) for the Fall 2024. A Github repository will be shared once the course starts.
-
+I will be teaching Biostatistics (STA4173) for the Fall 2024.
