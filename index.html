@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ranadeep Daw | Stats & Stories</title>
+
   <style>
     :root {
       --main-pink: #DF1995;
@@ -20,18 +21,18 @@
       padding: 10px;
     }
 
+    /* Main Container */
     .container {
-  max-width: min(1400px, 94vw);
-  margin: 20px auto;
-  background: white;
-  border: 3px solid var(--dark-grey);
-  border-radius: 20px;
-  padding: 24px;
-  box-shadow: 8px 8px 0px var(--main-pink);
-}
+      max-width: min(1400px, 94vw);
+      margin: 20px auto;
+      background: white;
+      border: 3px solid var(--dark-grey);
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 8px 8px 0px var(--main-pink);
+    }
 
-
-    /* Sticker Nav */
+    /* Navigation */
     nav {
       background: #333;
       padding: 10px;
@@ -56,7 +57,7 @@
       display: inline-block;
     }
 
-    /* Hero Section */
+    /* Header */
     h1 {
       font-size: 3em;
       color: var(--main-pink);
@@ -82,9 +83,35 @@
       margin-bottom: 15px;
     }
 
-    /* Content Cards */
+    /* Floating Emoji */
+    .emoji-float {
+      font-size: 1.8em;
+      float: right;
+      animation: hoverAnimation 3s infinite ease-in-out;
+    }
+
+    @keyframes hoverAnimation {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    /* Two-column home layout */
+    .home-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 25px;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 900px) {
+      .home-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Interests */
     h2 {
-      margin-top: 30px;
+      margin-top: 0;
       border-bottom: 4px solid var(--main-pink);
       display: inline-block;
       padding-right: 15px;
@@ -110,7 +137,42 @@
       content: "🎯 ";
     }
 
-    /* Fun Footer Bar */
+    /* Announcements Panel */
+    .announcements {
+      background: #fff7fc;
+      border: 2px dashed var(--main-pink);
+      border-radius: 15px;
+      padding: 15px;
+      font-size: 0.95em;
+    }
+
+    .announcements h2 {
+      font-size: 1.4em;
+      margin-top: 0;
+      color: var(--main-pink);
+      border-bottom: none;
+    }
+
+    .announcement-item {
+      background: white;
+      border: 2px solid #eee;
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 12px;
+      box-shadow: 2px 2px 0px #eee;
+    }
+
+    .announcement-item a {
+      color: var(--main-pink);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .announcement-item a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
     .contact-footer {
       margin-top: 30px;
       background: #fdf2f9;
@@ -130,58 +192,76 @@
     .contact-footer a:hover {
       text-decoration: underline;
     }
-
-    .emoji-float {
-      font-size: 1.8em;
-      float: right;
-      animation: hoverAnimation 3s infinite ease-in-out;
-    }
-
-    @keyframes hoverAnimation {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
   </style>
 </head>
 
 <body>
 
 <div class="container">
-  <nav>
-  <a href="index.html">🏠 Home</a>
-  <a href="cv.html">📄 CV / Talks / Publications</a>
-  <a href="research.html">🔍 Research</a>
-  <a href="students.html">🎓 Student papers</a>
-  <a href="blog.html">📝 Random blog</a>
-</nav>
 
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="cv.html">📄 CV / Talks</a>
+    <a href="research.html">🔍 Research</a>
+    <a href="students.html">🎓 Students mentored</a>
+    <a href="blog.html">📝 Random Blogs</a>
+  </nav>
 
   <span class="emoji-float">🦝</span>
   <h1>Ranadeep Daw</h1>
-  
   <p class="subtitle">Assistant Professor</p>
-  
+
   <div class="uwf-badge">
     📍 Department of Mathematics & Statistics | University of West Florida
   </div>
 
   <hr style="margin: 25px 0; border: 1px solid #eee;">
 
-  <h2>Interests... 🔬</h2>
-  <ul>
-    <li><b>Spatial models</b> (where and when things happen!)</li>
-    <li><b>Bayesian models</b> (the cool kind of stats)</li>
-    <li><b>Statistical computation</b> (coding and waiting for results)</li>
-    <li><b>Machine learning</b> (or AI?!)</li>
-    <li><b>Applications</b> (real-world problems)</li>
-  </ul>
+  <!-- Main Content Grid -->
+  <div class="home-grid">
+
+    <!-- LEFT: Interests -->
+    <div>
+      <h2>Interests... 🔬</h2>
+      <ul>
+        <li><b>Spatial models</b> (where and when things happen)</li>
+        <li><b>Bayesian models</b> (priors, posteriors, and mild regret)</li>
+        <li><b>Statistical computation</b> (writing code, waiting, rewriting)</li>
+        <li><b>Machine learning</b> (sometimes statistics in disguise 🤖)</li>
+        <li><b>Applications</b> (real-world data behaving badly)</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT: Announcements -->
+    <div class="announcements">
+      <h2>Announcements 📣</h2>
+
+      <div class="announcement-item">
+        🎉 <b>UWF is hosting SRCOS this summer!</b><br>
+        The Southern Regional Conference of Statisticians comes to Pensacola ☀️📊<br>
+        🔗 <a href="https://www.srcos.org" target="_blank">srcos.org</a>
+      </div>
+
+      <div class="announcement-item">
+        ❤️ <b>Support UWF</b><br>
+        Consider giving to the University of West Florida and its students 🎓<br>
+        🔗 <a href="https://uwf.edu/university-advancement/departments/development/give-now/donate/" target="_blank">
+          Give to UWF
+        </a>
+      </div>
+    </div>
+
+  </div>
 
   <div class="contact-footer">
     <p style="margin-top: 0;"><b>Want to chat about stats? My door is (usually) open!</b></p>
-    📧 <a href="mailto:rdaw@uwf.edu">rdaw@uwf.edu</a> | 
+    📧 <a href="mailto:rdaw@uwf.edu">rdaw@uwf.edu</a> |
     📚 <a href="https://scholar.google.com/citations?user=5ocFr9YAAAAJ&hl=en&oi=ao">Google Scholar</a>
-    <p style="font-size: 0.8em; margin-top: 10px; color: #888;">Built with curiosity and maybe too much coffee ☕</p>
+    <p style="font-size: 0.8em; margin-top: 10px; color: #888;">
+      Built with curiosity, coffee, and statistics ☕📊
+    </p>
   </div>
+
 </div>
 
 </body>
