@@ -92,10 +92,21 @@
       background: #f0f0f0;
     }
 
+    .pdf-frame-container {
+      border: 3px solid var(--dark-grey);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 6px 6px 0px #eee;
+      margin-top: 5px; /* Tiny gap from button */
+      background: #525659; /* Matches default PDF viewer grey */
+      line-height: 0; /* Removes ghost space at bottom */
+    }
+
     iframe {
       width: 100%;
-      height: 800px;
+      height: 900px; /* Adjust this to your liking */
       border: none;
+      display: block; /* Removes inline spacing */
     }
 
     .notice {
@@ -134,11 +145,11 @@
   <h1>Academic History & Beyond</h1>
   
   <p class="notice">
-    "A brief paper trail of my research, talks, and various academic projects."
+    A brief paper trail of my research, talks, and various projects.
   </p>
 
   <center>
-    <a href="Ranadeep_Daw_CV.pdf" class="download-btn" target="_blank">📥 Download PDF (for the full experience)</a>
+    <a href="Ranadeep_Daw_CV.pdf" class="download-btn" target="_blank">📥 Download</a>
   </center>
 
   <div class="pdf-frame-container">
