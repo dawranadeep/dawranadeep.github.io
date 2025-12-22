@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Ranadeep Daw</title>
+  <style>
+    :root {
+      --main-pink: #DF1995;
+      --dark-grey: #222;
+      --soft-bg: #fff9fb;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--soft-bg);
+      color: var(--dark-grey);
+      line-height: 1.5;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .container {
+      max-width: 900px; /* Slightly wider for better PDF viewing */
+      margin: 20px auto;
+      background: white;
+      border: 3px solid var(--dark-grey);
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 8px 8px 0px var(--main-pink);
+    }
+
+    /* Consistent Sticker Nav */
+    nav {
+      background: #333;
+      padding: 10px;
+      border-radius: 30px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      padding: 4px 10px;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      background: var(--main-pink);
+      border-radius: 8px;
+      transform: rotate(-3deg) scale(1.1);
+      display: inline-block;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: var(--main-pink);
+      margin: 10px 0;
+      text-shadow: 2px 2px 0px #333;
+    }
+
+    /* The "Big Pink Button" */
+    .download-btn {
+      display: inline-block;
+      background: var(--main-pink);
+      color: white !important;
+      padding: 12px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 3px solid var(--dark-grey);
+      box-shadow: 4px 4px 0px var(--dark-grey);
+      margin: 20px 0;
+      transition: 0.2s;
+    }
+
+    .download-btn:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 7px 7px 0px var(--dark-grey);
+    }
+
+    /* PDF Wrapper */
+    .pdf-frame-container {
+      border: 3px solid var(--dark-grey);
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 6px 6px 0px #eee;
+      margin-top: 20px;
+      background: #f0f0f0;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+    }
+
+    .notice {
+      background: #fff0f9;
+      border-left: 5px solid var(--main-pink);
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 0 10px 10px 0;
+      font-style: italic;
+    }
+
+    .emoji-float {
+      font-size: 1.8em;
+      float: right;
+      animation: hoverAnimation 3s infinite ease-in-out;
+    }
+
+    @keyframes hoverAnimation {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="cv.html">📄 CV / Talks / Publications</a>
+    <a href="research.html">🔍 Research</a>
+    <a href="students.html">🎓 Student papers</a>
+    <a href="blog.html">📝 Random blog</a>
+  </nav>
+
+  <span class="emoji-float">📜</span>
+  <h1>Academic History & Beyond</h1>
+  
+  <p class="notice">
+    "A brief paper trail of my research, talks, and various academic projects."
+  </p>
+
+  <center>
+    <a href="Ranadeep_Daw_CV.pdf" class="download-btn" target="_blank">📥 Download PDF (for the full experience)</a>
+  </center>
+
+  <div class="pdf-frame-container">
+    <iframe src="Ranadeep_Daw_CV.pdf">
+      <p>It looks like your browser doesn't support embedded PDFs. 
+         <a href="Ranadeep_Daw_CV.pdf">Click here to download the PDF file.</a>
+      </p>
+    </iframe>
+  </div>
+
+  <div style="margin-top: 30px; text-align: center; font-size: 0.85em; color: #888;">
+    <p>Talks and Publications are usually inside the PDF, but maybe I'll list them here too one day! ☕</p>
+  </div>
+</div>
+
+</body>
+</html>
