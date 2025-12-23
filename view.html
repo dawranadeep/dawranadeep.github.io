@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading Room | Ranadeep Daw</title>
+  <style>
+    :root { --main-pink: #DF1995; --dark-grey: #222; --soft-bg: #fff9fb; }
+    
+    body { 
+      font-family: 'Segoe UI', sans-serif; 
+      background-color: var(--soft-bg); 
+      margin: 0; 
+      padding: 15px; 
+      height: 100vh; 
+      display: flex; 
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+
+    .viewer-container {
+      flex-grow: 1;
+      background: white;
+      border: 3px solid var(--dark-grey);
+      border-radius: 20px;
+      box-shadow: 8px 8px 0px var(--main-pink);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .top-bar {
+      background: #333;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      background: var(--main-pink);
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      border: 2px solid white;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="viewer-container">
+  <div class="top-bar">
+    <span id="titleText">📖 Ranadeep's Reading Room</span>
+    <a href="blog.html">← Back to Posts</a>
+  </div>
+  <iframe id="docFrame" src=""></iframe>
+</div>
+
+<script>
+  // Get the file name from the URL (e.g., view.html?file=assets/fabian.pdf)
+  const urlParams = new URLSearchParams(window.location.search);
+  const file = urlParams.get('file');
+  
+  if (file) {
+    // #toolbar=0&navpanes=0 hides most browser download/print bars
+    document.getElementById('docFrame').src = file + "#toolbar=0&navpanes=0&view=FitH";
+    
+    // Clean up the filename to show in the title
+    const displayName = file.split('/').pop().replace('.pdf', '').replace(/_/g, ' ');
+    document.getElementById('titleText').innerText = "Reading: " + displayName;
+  } else {
+    document.getElementById('titleText').innerText = "No document selected.";
+  }
+</script>
+
+</body>
+</html>

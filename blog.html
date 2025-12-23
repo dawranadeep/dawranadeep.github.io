@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Posts | Ranadeep Daw</title>
+  <style>
+    :root {
+      --main-pink: #DF1995;
+      --dark-grey: #222;
+      --soft-bg: #fff9fb;
+      --postit-yellow: #fff9c4;
+      --postit-blue: #e3f2fd;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--soft-bg);
+      color: var(--dark-grey);
+      line-height: 1.5;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .container {
+      max-width: min(1400px, 94vw);
+      margin: 20px auto;
+      background: white;
+      border: 3px solid var(--dark-grey);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 8px 8px 0px var(--main-pink);
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      border-radius: 30px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      padding: 4px 10px;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      background: var(--main-pink);
+      border-radius: 8px;
+      transform: rotate(-3deg) scale(1.1);
+      display: inline-block;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: var(--main-pink);
+      margin: 10px 0;
+      text-shadow: 2px 2px 0px #333;
+    }
+
+    .notice {
+      background: #fff0f9;
+      border-left: 5px solid var(--main-pink);
+      padding: 15px;
+      margin-bottom: 30px;
+      border-radius: 0 10px 10px 0;
+      font-style: italic;
+    }
+
+    .post-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 10px;
+    }
+
+    .post-card {
+      padding: 25px;
+      border: 2px solid var(--dark-grey);
+      box-shadow: 5px 5px 0px var(--dark-grey);
+      transition: 0.3s;
+      position: relative;
+    }
+
+    .post-card:nth-child(odd) { background: var(--postit-yellow); transform: rotate(-1deg); }
+    .post-card:even { background: var(--postit-blue); transform: rotate(1.5deg); }
+
+    .post-card:hover {
+      transform: rotate(0deg) scale(1.03);
+      box-shadow: 10px 10px 0px var(--main-pink);
+      z-index: 5;
+    }
+
+    .post-card h3 {
+      margin-top: 0;
+      border-bottom: 1px dashed rgba(0,0,0,0.2);
+      padding-bottom: 10px;
+      font-size: 1.2em;
+    }
+
+    .file-type {
+      display: inline-block;
+      font-size: 0.7em;
+      background: var(--dark-grey);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .action-btn {
+      display: block;
+      margin-top: 20px;
+      background: white;
+      border: 2px solid var(--dark-grey);
+      color: var(--dark-grey);
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.2s;
+    }
+
+    .action-btn:hover {
+      background: var(--main-pink);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .emoji-float {
+      font-size: 1.8em;
+      float: right;
+      animation: hoverAnimation 3s infinite ease-in-out;
+    }
+
+    @keyframes hoverAnimation {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="cv.html">📄 CV / Talks</a>
+    <a href="research.html">🔍 Research</a>
+    <a href="students.html">🎓 Students</a>
+    <a href="blog.html">📝 Random Posts</a>
+  </nav>
+
+  <span class="emoji-float">📌</span>
+  <h1>Random Posts</h1>
+  
+  <p class="notice">
+    "A digital bulletin board of student research and random statistical musings. Click any card to read directly in the viewer."
+  </p>
+
+  <div class="post-grid">
+    <div class="post-card">
+      <span class="file-type">Student Research</span>
+      <h3>Missing Data Imputation</h3>
+      <p>Fabian Wennerloef: Bacterial abundance data across the Palmer LTER region.</p>
+      <a href="view.html?file=assets/Fabian_2025_Spring.pdf" target="_blank" class="action-btn">📖 Open & Read</a>
+    </div>
+
+    <div class="post-card">
+      <span class="file-type">Student Research</span>
+      <h3>Regression and Time Series Analysis</h3>
+      <p>Raelin Domingue: Mortgage Rates Analysis with Regression and Time Series Models</p>
+      <a href="view.html?file=assets/Raelin_2025_Fall.pdf" target="_blank" class="action-btn">📖 Open & Read</a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
